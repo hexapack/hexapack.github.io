@@ -16,13 +16,27 @@ body {
 .title h1 {
   font-size: 5vh;
 }
+.title .notice {
+  color: rgba(170, 170, 170, 0.5764705882);
+  font-size: 14px;
+}
+.title .notice .down-arrow {
+  opacity: 0.5;
+}
 
 .projects {
   padding-top: 5vh;
   display: grid;
   place-items: center;
 }
-.projects .project-1 {
+.projects .project-rng {
   display: flex;
   flex-direction: column;
+}
+
+.contact {
+  text-align: center;
+}
+.contact span {
+  text-decoration: underline;
 }/*# sourceMappingURL=main.css.map */
