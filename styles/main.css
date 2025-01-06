@@ -21,4 +21,8 @@ body {
   padding-top: 5vh;
   display: grid;
   place-items: center;
+}
+.projects .project-1 {
+  display: flex;
+  flex-direction: column;
 }/*# sourceMappingURL=main.css.map */
